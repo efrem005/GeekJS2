@@ -484,7 +484,6 @@ a {
       height: 620px; }
 
 .fetured__title {
-  font-family: Lato;
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
@@ -784,10 +783,8 @@ a {
         letter-spacing: 0.68px; }
   .text__block p {
     color: #898989;
-    font-family: Lato;
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: normal;
     line-height: 24px;
     text-align: left;
     letter-spacing: 0.35px; }
@@ -804,11 +801,9 @@ a {
   .text__company h1 {
     color: #f16d7f;
     font-size: 18px;
-    letter-spacing: normal;
     line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 0.45px;
-    line-height: normal;
     margin-bottom: 26px; }
   .text__company ul {
     list-style-type: none;
@@ -832,7 +827,6 @@ a {
     align-items: center; }
   .footer__copy {
     color: #7a7a7a;
-    font-family: Lato;
     font-size: 16px;
     letter-spacing: 0.56px; }
   .footer__social a i {
@@ -861,10 +855,7 @@ a {
     letter-spacing: normal;
     line-height: 20px;
     text-align: center;
-    text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal; }
+    text-transform: uppercase; }
   .crumps nav {
     color: #636363;
     font-size: 14px;
@@ -1131,7 +1122,6 @@ a {
     border: 1px solid #ef5b70;
     background-color: #ffffff;
     color: #ef5b70;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 700;
     margin-top: 28px;
@@ -1177,7 +1167,6 @@ a {
     .checkout__list-title {
       margin-left: 10px;
       color: #222222;
-      font-family: Lato;
       font-size: 16px;
       line-height: 73px;
       font-weight: 700;
@@ -1349,7 +1338,6 @@ a {
     .checkout__list-title {
       margin-left: 10px;
       color: #222222;
-      font-family: Lato;
       font-size: 16px;
       line-height: 73px;
       font-weight: 700;
@@ -1788,6 +1776,11 @@ a {
     align-items: flex-start;
     height: 60px; }
 
+  .cart__menu {
+    left: -40px; }
+    .cart__menu::before {
+      left: 50px; }
+
   .top-nav {
     position: relative;
     display: flex;
@@ -1805,7 +1798,7 @@ a {
       width: 100%;
       transition: all 1s ease-in; }
       .top-nav > .menu-list .menu-link {
-        padding: 0px 20px;
+        padding: 0 20px;
         color: #fff; }
 
   .menu-item + .menu-item {
