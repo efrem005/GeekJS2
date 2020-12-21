@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Brand Fashion</title>
+    <script src="https://kit.fontawesome.com/861689887d.js"></script>
+  </head>
+  <body>
+    <header class="header container">
+    <div class="container">
+      <div class="header__left">
+        <a href="index.html" class="logo">
+          <img class="logo__img" src="img/logo.png" alt="logo" />
+          <div class="logo__name">Bran<span>d</span></div>
+        </a>
+        <form class="search" method="get">
+          <div class="search__browse">
+            Browse <i class="fas fa-caret-down"></i>
+            <div class="search__browse-menu">
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+                <li><a href="#">Blazers</a></li>
+                <li><a href="#">Denim</a></li>
+                <li><a href="#">Leggings/Pants</a></li>
+                <li><a href="#">Skirts/Shorts</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Bags/Purses</a></li>
+                <li><a href="#">Swimwear/Underwear</a></li>
+                <li><a href="#">Nightwear</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Beauty</a></li>
+              </ul>
+              <h2>Men</h2>
+              <ul>
+                <li><a href="#">Tees/Tank tops</a></li>
+                <li><a href="#">Shirts/Polos</a></li>
+                <li><a href="#">Sweaters</a></li>
+                <li><a href="#">Sweatshirts/Hoodies</a></li>
+                <li><a href="#">Blazers</a></li>
+                <li><a href="#">Jackets/vests</a></li>
+              </ul>
+            </div>
+          </div>
+          <input
+            type="text"
+            class="search__input"
+            name="search"
+            placeholder="Search for Item..."
+          />
+          <button class="search__button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="header__right">
+        <label class="cart" id="cart">
+          <input type="checkbox" name="cart" class="input">
+          <img src="img/cart.png" alt="cart" /><span id="countLength"></span>
+          <div class="cart__menu">
+            <div class="cart__menu-block">
+                <!-- cartBasket -->
+            </div>
+              <div class="cart__menu-cent">
+              <h2>TOTAL</h2>
+              <span class="cart__menu-price" id="cartCent">0</span>
+            </div>
+            <button class="cart__menu-btn">Checkout</button>
+            <button class="cart__menu-btn">Go to cart</button>
+          </div>
+        </label>
+        <div class="my-account">
+          <a href="#">My Account<i class="fas fa-caret-down"></i></a>
+        </div>
+      </div>
+       </div>
+    </header>
+
+    <nav class="top-nav">
+      <input class="menu__open-checkbox" type="checkbox" id="menu" />
+      <label class="menu__open" for="menu"><i class="fas fa-bars"></i></label>
+      <label class="menu__close" for="menu"
+        ><i class="fas fa-window-close"></i
+      ></label>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Man</a></li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">Women</a>
+          <div class="menu-item-menu">
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+                <li><a href="#">Blazers</a></li>
+                <li><a href="#">Denim</a></li>
+                <li><a href="#">Leggings/Pants</a></li>
+                <li><a href="#">Skirts/Shorts</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+              </ul>
+            </div>
+
+            <a class="menu-item-img" href="#"
+              ><img src="./img/layer-42.jpg" alt="woman"
+            /></a>
+          </div>
+        </li>
+        <li class="menu-item"><a href="#" class="menu-link">Kids</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Accoseriese</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Featured</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Hot Deals</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="brand">
+        <div class="container">
+          <div class="brand__image"></div>
+          <div class="brand__block">
+            <div class="brand__title">
+              THE BRAND<br /><span>OF LUXERIOUS </span><span>FASHION</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="catalog">
+          <div class="catalog__offer">
+            <a href="#" class="catalog__offer-link">
+              <img src="img/offer1.jpg" alt="" />
+              <p>HOT DEAL <br /><span>FOR MEN</span></p>
+            </a>
+          </div>
+          <div class="catalog__offer">
+            <a href="#" class="catalog__offer-link">
+              <img src="img/offer2.jpg" alt="" />
+              <p>LUXIROUS &amp; trendy <br /><span>ACCESORIES</span></p>
+            </a>
+          </div>
+          <div class="catalog__offer">
+            <a href="#" class="catalog__offer-link">
+              <img src="img/offer3.jpg" alt="" />
+              <p>30% offer <br /><span>women</span></p>
+            </a>
+          </div>
+          <div class="catalog__offer">
+            <a href="#" class="catalog__offer-link">
+              <img src="img/offer4.jpg" alt="" />
+              <p>new arrivals <br /><span>FOR kids</span></p>
+            </a>
+          </div>
+        </div>
+        <div class="fetured">
+          <h1 class="fetured__title">Featured Items</h1>
+          <h2 class="fetured__subtitle">
+            Shop for items based on what we featured in this week
+          </h2>
+          <div class="fetured__block" id="product">
+          <!-- product -->
+          </div>
+          <div class="fetured__allProduct">
+            <a href="#"
+              >Browse All Product <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="offer">
+          <div class="offer__seller">
+            <img src="./img/layer-38.jpg" alt="123" />
+            <p>30% <span>OFFER</span><br /><span>FOR WOMEN</span></p>
+          </div>
+          <div class="offer__featured">
+            <div class="offer__featured-cart">
+              <img src="img/forma-1.png" alt="" />
+              <div>
+                <h2>Free Delivery</h2>
+                <p>
+                  Worldwide delivery on all. Authorit tively morph
+                  next-generation innov tion with extensive models.
+                </p>
+              </div>
+            </div>
+            <div class="offer__featured-cart">
+              <img src="img/forma-2.png" alt="" />
+              <div>
+                <h2>Sales &amp; discounts</h2>
+                <p>
+                  Worldwide delivery on all. Authorit tively morph
+                  next-generation innov tion with extensive models.
+                </p>
+              </div>
+            </div>
+            <div class="offer__featured-cart">
+              <img src="img/forma-3.png" alt="" />
+              <div>
+                <h2>Quality assurance</h2>
+                <p>
+                  Worldwide delivery on all. Authorit tively morph
+                  next-generation innov tion with extensive models.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subscribe">
+        <div class="container">
+          <div class="subscribe__left">
+            <img src="img/layer-40.png" alt="layer-40" />
+            <div class="subscribe__left-text">
+              <p>
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque
+                sed pretium”
+              </p>
+              <p>Bin Burhan<br /><span>Dhaka, Bd</span></p>
+              <div class="subscribe__left-pagination">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe__right">
+            <p>
+              Subscribe <br />
+              <span>FOR OUR NEWLETTER AND PROMOTION</span>
+            </p>
+            <form class="subscribe__right-email" method="POST">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email"
+                pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__nav">
+          <div class="text__block">
+            <a class="text__block-logo" href="#">
+              <img src="img/logo.png" alt="logo" /><span>BRAN</span
+              ><span>D</span>
+            </a>
+            <p>
+              Objectively transition extensive data rather than cross functional
+              solutions. Monotonectally syndicate multidisciplinary materials
+              before go forward benefits. Intrinsicly syndicate an expanded
+              array of processes and cross-unit partnerships.
+            </p>
+            <p>
+              Efficiently plagiarize 24/365 action items and focused
+              infomediaries. Distinctively seize superior initiatives for
+              wireless technologies. Dynamically optimize.
+            </p>
+          </div>
+          <div class="text__company">
+            <h1>COMPANY</h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="text__company">
+            <h1>INFORMATION</h1>
+            <ul>
+              <li><a href="#">Tearms &amp; Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">How to Buy</a></li>
+              <li><a href="#">How to Sell</a></li>
+              <li><a href="#">Promotion</a></li>
+            </ul>
+          </div>
+          <div class="text__company">
+            <h1>SHOP CATEGORY</h1>
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Child</a></li>
+              <li><a href="#">Apparel</a></li>
+              <li><a href="#">Brows All</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__copy">&copy; 2020 Brand All Rights Reserved.</div>
+        <div class="footer__social">
+          <a href="#"><i class="fab fa-facebook-square theme-slytherin"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

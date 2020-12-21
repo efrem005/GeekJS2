@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Сheckout</title>
+    <script src="https://kit.fontawesome.com/861689887d.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__left">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="img/logo.png" alt="logo" />
+            <div class="logo__name">Bran<span>d</span></div>
+          </a>
+          <form class="search" method="get">
+            <div class="search__browse">
+              Browse <i class="fas fa-caret-down"></i>
+            </div>
+            <input
+              type="text"
+              class="search__input"
+              name="search"
+              placeholder="Search for Item..."
+            />
+            <button class="search__button">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="header__right">
+          <div class="cart">
+            <img src="img/cart.png" alt="cart" /><span>2</span>
+          </div>
+          <div class="my-account">
+            <a href="#">My Account<i class="fas fa-caret-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="top-nav">
+      <input class="menu__open-checkbox" type="checkbox" id="menu" />
+      <label class="menu__open" for="menu"><i class="fas fa-bars"></i></label>
+      <label class="menu__close" for="menu"
+        ><i class="fas fa-window-close"></i
+      ></label>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Man</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Women</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Kids</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Accoseriese</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Featured</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Hot Deals</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="crumps">
+        <div class="container">
+          <h2>New Arrivals</h2>
+          <nav>Home / Men / <span>New Arrivals</span></nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="checkout">
+          <ol class="checkout__list">
+            <li class="checkout__items">
+              <input class="checkbox" type="checkbox" id="arrivals" checked />
+              <label class="checkout__list-title" for="arrivals"
+                >New Arrivals</label
+              >
+              <div class="checkout__list-block">
+                <form
+                  class="checkout__formleft"
+                  action="checkout.html"
+                  method="get"
+                >
+                  <h3>Check as a guest or register</h3>
+                  <p>Register with us for future convenience</p>
+                  <div class="checkout__formleft-radio">
+                    <input
+                      type="radio"
+                      name="guest"
+                      id="guest"
+                      value="guest"
+                    /><label for="guest">checkout as guest</label>
+                  </div>
+                  <div class="checkout__formleft-radio">
+                    <input
+                      type="radio"
+                      name="guest"
+                      id="register"
+                      value="register"
+                      checked=""
+                    /><label for="register">register</label>
+                  </div>
+                  <h3>register and save time!</h3>
+                  <p>Register with us for future convenience</p>
+                  <h4>
+                    <a href="#"
+                      ><i
+                        class="fas fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                      >Fast and easy checkout</a
+                    >
+                  </h4>
+                  <h4>
+                    <a href="#"
+                      ><i
+                        class="fas fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                      >Easy access to your order history and status</a
+                    >
+                  </h4>
+                  <button type="submit" name="continue">Continue</button>
+                </form>
+                <form
+                  class="checkout__formright"
+                  action="checkout.html"
+                  method="get"
+                >
+                  <h3>Already registed?</h3>
+                  <p>Please log in below</p>
+                  <h5>EMAIL ADDRESS <span>*</span></h5>
+                  <input type="email" name="email" />
+                  <h5>PASSWORD <span>*</span></h5>
+                  <input type="password" name="password" />
+                  <h6><span>*</span> Required Fileds</h6>
+                  <div class="checkout__formright-submit">
+                    <button type="submit" name="login">Log in</button>
+                    <a href="#">Forgot Password ?</a>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li class="checkout__items">
+              <input class="checkbox" type="checkbox" id="billing" />
+              <label class="checkout__list-title" for="billing"
+                >BILLING INFORMATION</label
+              >
+              <div class="checkout__list-block"></div>
+            </li>
+            <li class="checkout__items">
+              <input class="checkbox" type="checkbox" id="shipping" />
+              <label class="checkout__list-title" for="shipping"
+                >SHIPPING INFORMATION</label
+              >
+              <div class="checkout__list-block"></div>
+            </li>
+            <li class="checkout__items">
+              <input class="checkbox" type="checkbox" id="method" />
+              <label class="checkout__list-title" for="method"
+                >SHIPPING METHOD</label
+              >
+              <div class="checkout__list-block"></div>
+            </li>
+            <li class="checkout__items">
+              <input class="checkbox" type="checkbox" id="payment" />
+              <label class="checkout__list-title" for="payment"
+                >PAYMENT METHOD</label
+              >
+              <div class="checkout__list-block"></div>
+            </li>
+            <li class="checkout__items">
+              <input class="checkbox" type="checkbox" id="review" />
+              <label class="checkout__list-title" for="review"
+                >ORDER REVIEW</label
+              >
+              <div class="checkout__list-block"></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="subscribe">
+        <div class="container">
+          <div class="subscribe__left">
+            <img src="img/layer-40.png" alt="layer-40" />
+            <div class="subscribe__left-text">
+              <p>
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque
+                sed pretium”
+              </p>
+              <p>Bin Burhan<br /><span>Dhaka, Bd</span></p>
+              <div class="subscribe__left-pagination">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe__right">
+            <p>
+              Subscribe <br />
+              <span>FOR OUR NEWLETTER AND PROMOTION</span>
+            </p>
+            <form class="subscribe__right-email" method="POST">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email"
+                pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__nav">
+          <div class="text__block">
+            <a class="text__block-logo" href="#">
+              <img src="img/logo.png" alt="logo" /><span>BRAN</span
+              ><span>D</span>
+            </a>
+            <p>
+              Objectively transition extensive data rather than cross functional
+              solutions. Monotonectally syndicate multidisciplinary materials
+              before go forward benefits. Intrinsicly syndicate an expanded
+              array of processes and cross-unit partnerships.
+            </p>
+            <p>
+              Efficiently plagiarize 24/365 action items and focused
+              infomediaries. Distinctively seize superior initiatives for
+              wireless technologies. Dynamically optimize.
+            </p>
+          </div>
+          <div class="text__company">
+            <h1>COMPANY</h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="text__company">
+            <h1>INFORMATION</h1>
+            <ul>
+              <li><a href="#">Tearms &amp; Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">How to Buy</a></li>
+              <li><a href="#">How to Sell</a></li>
+              <li><a href="#">Promotion</a></li>
+            </ul>
+          </div>
+          <div class="text__company">
+            <h1>SHOP CATEGORY</h1>
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Child</a></li>
+              <li><a href="#">Apparel</a></li>
+              <li><a href="#">Brows All</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__copy">&copy; 2020 Brand All Rights Reserved.</div>
+        <div class="footer__social">
+          <a href="#"><i class="fab fa-facebook-square theme-slytherin"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/jquery.viewportchecker.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

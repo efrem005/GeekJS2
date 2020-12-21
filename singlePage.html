@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Single Page</title>
+    <script src="https://kit.fontawesome.com/861689887d.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__left">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="img/logo.png" alt="logo" />
+            <div class="logo__name">Bran<span>d</span></div>
+          </a>
+          <form class="search" method="get" action="#">
+            <div class="search__browse">
+              Browse <i class="fas fa-caret-down"></i>
+              <div class="search__browse-menu">
+                <h2>Women</h2>
+                <ul>
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Sweaters/Knits</a></li>
+                  <li><a href="#">Jackets/Coats</a></li>
+                  <li><a href="#">Blazers</a></li>
+                  <li><a href="#">Denim</a></li>
+                  <li><a href="#">Leggings/Pants</a></li>
+                  <li><a href="#">Skirts/Shorts</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Bags/Purses</a></li>
+                  <li><a href="#">Swimwear/Underwear</a></li>
+                  <li><a href="#">Nightwear</a></li>
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">Beauty</a></li>
+                </ul>
+                <h2>Men</h2>
+                <ul>
+                  <li><a href="#">Tees/Tank tops</a></li>
+                  <li><a href="#">Shirts/Polos</a></li>
+                  <li><a href="#">Sweaters</a></li>
+                  <li><a href="#">Sweatshirts/Hoodies</a></li>
+                  <li><a href="#">Blazers</a></li>
+                  <li><a href="#">Jackets/vests</a></li>
+                </ul>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="search__input"
+              name="search"
+              placeholder="Search for Item..."
+            />
+            <button class="search__button">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="header__right">
+          <div class="cart">
+            <img src="img/cart.png" alt="cart" /><span>2</span>
+            <div class="cart__menu">
+              <div class="cart__menu_items">
+                <img src="./img/layer-48.jpg" alt="carts" />
+                <div class="cart__menu_items-content">
+                  <h2>Rebox Zane</h2>
+                  <span>S</span>
+                  <p>1 x $250</p>
+                </div>
+                <button>
+                  <i class="fas fa-times-circle"></i>
+                </button>
+              </div>
+              <div class="cart__menu_items">
+                <img src="./img/slide1.png" alt="carts" />
+                <div class="cart__menu_items-content">
+                  <h2>Rebox Zane</h2>
+                  <span>S</span>
+                  <p>1 x $250</p>
+                </div>
+                <button>
+                  <i class="fas fa-times-circle"></i>
+                </button>
+              </div>
+              <div class="cart__menu-cent">
+                <h2>TOTAL</h2>
+                <span>$500.00</span>
+              </div>
+              <button class="cart__menu-btn">Checkout</button>
+              <button class="cart__menu-btn">Go to cart</button>
+            </div>
+          </div>
+          <div class="my-account">
+            <a href="#">My Account<i class="fas fa-caret-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="top-nav">
+      <input class="menu__open-checkbox" type="checkbox" id="menu" />
+      <label class="menu__open" for="menu"><i class="fas fa-bars"></i></label>
+      <label class="menu__close" for="menu"
+        ><i class="fas fa-window-close"></i
+      ></label>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Man</a></li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">Women</a>
+          <div class="menu-item-menu">
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+                <li><a href="#">Blazers</a></li>
+                <li><a href="#">Denim</a></li>
+                <li><a href="#">Leggings/Pants</a></li>
+                <li><a href="#">Skirts/Shorts</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Women</h2>
+              <ul>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Sweaters/Knits</a></li>
+                <li><a href="#">Jackets/Coats</a></li>
+              </ul>
+            </div>
+
+            <a class="menu-item-img" href="#"
+              ><img src="./img/layer-42.jpg" alt="woman"
+            /></a>
+          </div>
+        </li>
+        <li class="menu-item"><a href="#" class="menu-link">Kids</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Accoseriese</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Featured</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Hot Deals</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="crumps">
+        <div class="container">
+          <h2>New Arrivals</h2>
+          <nav>Home / Men / <span>New Arrivals</span></nav>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider__block">
+          <i class="fas fa-angle-left"></i>
+          <img src="./img/slide1.png" alt="slide1" />
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+      <div class="container">
+        <div class="description">
+          <h3 class="description__title">WOMEN COLLECTION</h3>
+          <div class="description__line">
+            <span class="description__line-one"></span>
+            <span class="description__line-center"></span>
+            <span class="description__line-one"></span>
+          </div>
+          <h1 class="description__subtitle">Moschino Cheap And Chic</h1>
+          <p class="description__text">
+            Compellingly actualize fully researched processes before proactive
+            outsourcing. Progressively syndicate collaborative architectures
+            before cutting-edge services. Completely visualize parallel core
+            competencies rather than exceptional portals.
+          </p>
+          <div class="description__option">
+            <p>Material: <span>Cotton</span></p>
+            <p>Designer: <span>Binburhan</span></p>
+          </div>
+          <div class="description__cash">$561</div>
+          <div class="header-line"></div>
+          <form class="description__form" action="#" method="GET">
+            <div class="description__form-block">
+              <label for="color">Choose color</label>
+              <input
+                list="colorlist"
+                id="color"
+                name="color"
+                placeholder="🟥 Red"
+              />
+              <datalist id="colorlist">
+                <option value="🟥 Red"></option>
+                <option value="🟦 Blue"></option>
+                <option value="🟩 Green"></option>
+              </datalist>
+            </div>
+            <div class="description__form-block">
+              <label for="size">Choose size</label>
+              <input list="sizelist" id="size" name="size" placeholder="XXL" />
+              <datalist id="sizelist">
+                <option label="XS" value="XS"></option>
+                <option label="S" value="S"></option>
+                <option label="M" value="M"></option>
+                <option label="L" value="L"></option>
+                <option label="XL" value="XL"></option>
+                <option label="XXL" value="XXL"></option>
+                <option label="XXXL" value="XXXL"></option>
+              </datalist>
+            </div>
+            <div class="description__form-block">
+              <label for="quantity">Quantity</label>
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                placeholder="2"
+              />
+            </div>
+            <button type="submit">
+              <img src="./img/single-form.png" alt="cart" />Add to Cart
+            </button>
+          </form>
+        </div>
+        <div class="similar">
+          <div class="fetured">
+            <h1 class="fetured__title">You may like also</h1>
+            <div class="fetured__block">
+              <div class="fetured__item">
+                <div class="fetured__item-header">
+                  <img src="img/rectangle-5.jpg" alt="123" />
+                </div>
+                <div class="fetured__item-main">
+                  <div class="fetured__item-title">Mango People T-shirt</div>
+                  <div class="fetured__item-price">$52.00</div>
+                </div>
+                <div class="fetured__item-hover">
+                  <div class="fetured__item-cart">
+                    <img src="img/cart-1.png" alt="" />
+                    <span>Add to Cart</span>
+                  </div>
+                </div>
+              </div>
+              <div class="fetured__item">
+                <div class="fetured__item-header">
+                  <img src="img/rectangle-6.jpg" alt="123" />
+                </div>
+                <div class="fetured__item-main">
+                  <div class="fetured__item-title">Mango People T-shirt</div>
+                  <div class="fetured__item-price">$52.00</div>
+                </div>
+                <div class="fetured__item-hover">
+                  <div class="fetured__item-cart">
+                    <img src="img/cart-1.png" alt="" />
+                    <span>Add to Cart</span>
+                  </div>
+                </div>
+              </div>
+              <div class="fetured__item">
+                <div class="fetured__item-header">
+                  <img src="img/rectangle-7.jpg" alt="123" />
+                </div>
+                <div class="fetured__item-main">
+                  <div class="fetured__item-title">Mango People T-shirt</div>
+                  <div class="fetured__item-price">$52.00</div>
+                </div>
+                <div class="fetured__item-hover">
+                  <div class="fetured__item-cart">
+                    <img src="img/cart-1.png" alt="" />
+                    <span>Add to Cart</span>
+                  </div>
+                </div>
+              </div>
+              <div class="fetured__item">
+                <div class="fetured__item-header">
+                  <img src="img/rectangle-8.jpg" alt="123" />
+                </div>
+                <div class="fetured__item-main">
+                  <div class="fetured__item-title">Mango People T-shirt</div>
+                  <div class="fetured__item-price">$52.00</div>
+                </div>
+                <div class="fetured__item-hover">
+                  <div class="fetured__item-cart">
+                    <img src="img/cart-1.png" alt="" />
+                    <span>Add to Cart</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subscribe">
+        <div class="container">
+          <div class="subscribe__left">
+            <img src="img/layer-40.png" alt="layer-40" />
+            <div class="subscribe__left-text">
+              <p>
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque
+                sed pretium”
+              </p>
+              <p>Bin Burhan<br /><span>Dhaka, Bd</span></p>
+              <div class="subscribe__left-pagination">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe__right">
+            <p>
+              Subscribe <br />
+              <span>FOR OUR NEWLETTER AND PROMOTION</span>
+            </p>
+            <form class="subscribe__right-email" method="POST" action="#">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email"
+                pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__nav">
+          <div class="text__block">
+            <a class="text__block-logo" href="#">
+              <img src="img/logo.png" alt="logo" /><span>BRAN</span
+              ><span>D</span>
+            </a>
+            <p>
+              Objectively transition extensive data rather than cross functional
+              solutions. Monotonectally syndicate multidisciplinary materials
+              before go forward benefits. Intrinsicly syndicate an expanded
+              array of processes and cross-unit partnerships.
+            </p>
+            <p>
+              Efficiently plagiarize 24/365 action items and focused
+              infomediaries. Distinctively seize superior initiatives for
+              wireless technologies. Dynamically optimize.
+            </p>
+          </div>
+          <div class="text__company">
+            <h1>COMPANY</h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="text__company">
+            <h1>INFORMATION</h1>
+            <ul>
+              <li><a href="#">Tearms &amp; Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">How to Buy</a></li>
+              <li><a href="#">How to Sell</a></li>
+              <li><a href="#">Promotion</a></li>
+            </ul>
+          </div>
+          <div class="text__company">
+            <h1>SHOP CATEGORY</h1>
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Child</a></li>
+              <li><a href="#">Apparel</a></li>
+              <li><a href="#">Brows All</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__copy">&copy; 2020 Brand All Rights Reserved.</div>
+        <div class="footer__social">
+          <a href="#"><i class="fab fa-facebook-square theme-slytherin"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
